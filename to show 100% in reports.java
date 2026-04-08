@@ -1,0 +1,6 @@
+@Test
+public void testDivideByZero() {
+    assertThrows(IllegalArgumentException.class, () -> {
+        calc.divide(4, 0);
+    });
+}
