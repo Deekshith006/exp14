@@ -4,3 +4,4 @@ public void testDivideByZero() {
         calc.divide(4, 0);
     });
 }
+
