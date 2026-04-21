@@ -14,4 +14,5 @@ public class CalculatorTest {
     public void testDivide() {
         assertEquals(2, calc.divide(4, 2));
     }
+    
 }
